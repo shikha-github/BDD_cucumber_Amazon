@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environments>
+	<QAEnvironment value='SIT' testingExecutionStatus='True'>
+		<BrowserName value='CHROME' browserFlag='True'>
+			<BrowserPath>\src\main\java\com\amazon\driverExecutables\chromedriver.exe
+			</BrowserPath>
+			<!-- <ExecutionType>Sequential</ExecutionType> <DriverType>Local</DriverType> -->
+			<WindowMaximize>True</WindowMaximize>
+			<URL>https://www.amazon.in/</URL>
+			<ImplicitWait>5</ImplicitWait>
+			<TestDataFolderPath>\src\main\java\com\amazon\testdata\sit</TestDataFolderPath>
+		</BrowserName>
+		<BrowserName value='FIREFOX' browserFlag='False'>
+			<BrowserPath>\src\main\java\com\amazon\driverExecutables\geckodriver.exe
+			</BrowserPath>
+			<!-- <ExecutionType>Sequential</ExecutionType> <DriverType>Local</DriverType> -->
+			<WindowMaximize>False</WindowMaximize>
+			<URL>https://www.google.in/</URL>
+			<ImplicitWait>0</ImplicitWait>
+			<TestDataFolderPath></TestDataFolderPath>
+		</BrowserName>
+	</QAEnvironment>
+	<QAEnvironment value='UAT' testingExecutionStatus='False'>
+		<BrowserName value='FIREFOX' browserFlag='True'>
+			<BrowserPath>\src\main\java\com\amazon\driverExecutables\geckodriver.exe
+			</BrowserPath>
+			<!-- <ExecutionType>Sequential</ExecutionType> <DriverType>Local</DriverType> -->
+			<WindowMaximize>False</WindowMaximize>
+			<URL>https://www.google.in/</URL>
+			<ImplicitWait>50</ImplicitWait>
+			<TestDataFolderPath>/l/l/p</TestDataFolderPath>
+		</BrowserName>
+	</QAEnvironment>
+</Environments>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]">
+  <test name="API Testing(failed)">
+    <classes>
+      <class name="com.amazon.runner.RunnerTest">
+        <methods>
+          <include name="feature" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.amazon.runner.RunnerTest -->
+    </classes>
+  </test> <!-- API Testing(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

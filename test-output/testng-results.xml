@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="51487" started-at="2020-11-25T18:21:45Z" finished-at="2020-11-25T18:22:36Z">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="TestRunner.feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.amazon.runner.TestRunner@5ce81285]" name="feature" class="com.amazon.runner.TestRunner"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="API Testing" duration-ms="51487" started-at="2020-11-25T18:21:45Z" finished-at="2020-11-25T18:22:36Z">
+      <class name="com.amazon.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.amazon.runner.TestRunner@5ce81285]" name="setUpClass" is-config="true" duration-ms="515" started-at="2020-11-25T23:51:45Z" finished-at="2020-11-25T23:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.amazon.runner.TestRunner@5ce81285]" name="feature" duration-ms="36111" started-at="2020-11-25T23:51:46Z" description="Runs Cucumber Feature" data-provider="scenario" finished-at="2020-11-25T23:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Login Page is displayed (multiple data scenario)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature has scenarios related to Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.amazon.runner.TestRunner@5ce81285]" name="feature" duration-ms="14491" started-at="2020-11-25T23:52:22Z" description="Runs Cucumber Feature" data-provider="scenario" finished-at="2020-11-25T23:52:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Login Page is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature has scenarios related to Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.amazon.runner.TestRunner@5ce81285]" name="tearDownClass" is-config="true" duration-ms="150" started-at="2020-11-25T23:52:36Z" finished-at="2020-11-25T23:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.amazon.runner.TestRunner -->
+    </test> <!-- API Testing -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
